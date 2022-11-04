@@ -1,6 +1,7 @@
 .App {
   text-align: center;
 }
+/* https://api.openweathermap.org/data/2.5/weather?q=pune&appid=9b1076dacaaa7f1a2c460a496258de89 */
 
 .App-logo {
   height: 40vmin;
@@ -26,6 +27,21 @@
 
 .App-link {
   color: #61dafb;
+}
+.box {
+  border-radius: 20px;
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #61dafb92;
+  box-shadow: 8px 6px;
+}
+.box input {
+  width: 40%;
+  height: 30px;
+  border-radius: 10px;
 }
 
 @keyframes App-logo-spin {
